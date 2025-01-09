@@ -13,6 +13,13 @@ The Currency Converter app is designed to provide users with a seamless and effi
 - **Material Design 3**: For a modern and intuitive user interface.
 - **Gradle**: For project build and dependency management.
 
+## App Structure
+
+- **MainActivity**: The entry point of the app.
+- **ViewModel**: Handles the business logic and data management.
+- **Repository**: Manages data operations and network requests.
+- **UI Components**: Built using Jetpack Compose for a modern and responsive interface.
+
 ## How to Start
 
 1. **Clone the Repository**:
@@ -49,6 +56,10 @@ Check out the demo of the Currency Converter app [here](#).
 ![Conversion Screen](#)
 ![Foresight Section](#)
 
+## Video Demo
+
+Watch the video demo of the Currency Converter app [here](#).
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -56,3 +67,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Contact
 
 For any inquiries or feedback, please contact [your-email@example.com](mailto:your-email@example.com).
+
+# CodingSkills
+
+## Requirements
+
+- Basic understanding of Kotlin and Android development.
+- Familiarity with Jetpack Compose and Material Design principles.
+- Experience with Retrofit and Coroutines for network operations.
