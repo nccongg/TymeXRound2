@@ -2,7 +2,7 @@
 
 ## Purpose of the App
 
-The Currency Converter app is designed to provide users with a seamless and efficient way to convert currencies. It fetches real-time exchange rates from a reliable API and allows users to convert between different currencies with ease. The app is user-friendly and provides additional features such as historical data and foresight information to help users make informed decisions.
+The Currency Converter app is designed to provide users with a seamless and efficient way to convert currencies. It fetches real-time exchange rates from a reliable API, [Exchange Rates API](https://exchangeratesapi.io/), and allows users to convert between different currencies with ease. The app is user-friendly and provides additional features such as historical data and foresight information to help users make informed decisions.
 
 ## Technologies Used
 
