@@ -125,7 +125,7 @@ fun HomeScreen(
                     .padding(16.dp)
                     .height(60.dp)
                     .clickable {
-                        if (errorInputMessage != null) {
+                        if (errorMessage != null) {
                             activity?.finishAffinity()
                         } else {
                             exchangeCurrency()

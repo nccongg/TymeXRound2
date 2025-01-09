@@ -37,7 +37,7 @@ The project structure in Android Studio is organized as follows:
 
 1. **Clone the Repository**:
     ```sh
-    git clone <repository-url>
+    git clone https://github.com/nccongg/TymeXRound2.git
     cd CurrencyConverter
     ```
 
@@ -62,12 +62,11 @@ The project structure in Android Studio is organized as follows:
 
 ## Screenshots
 
-![Home Screen](./CurrencyConverter/demo/home.jpg)
-![Conversion Screen](./CurrencyConverter/demo/coverter.jpg)
+<img src="./CurrencyConverter/demo/home.jpg" alt="Home Screen" width="300"/>
+<img src="./CurrencyConverter/demo/coverter.jpg" alt="Conversion Screen" width="300"/>
 
 ## Video Demo
-
-Watch the video demo of the Currency Converter app [here](#).
+Watch the video demo of the Currency Converter app [here](https://drive.google.com/file/d/18LAwUnWthjPuI-_15osQpLYgEuqI7raB/view?usp=sharing)
 
 ## License
 
@@ -79,8 +78,26 @@ For any inquiries or feedback, please contact [chicong442004@gmail.com](mailto:c
 
 # CodingSkills
 
-## Requirements
 
-- Basic understanding of Kotlin and Android development.
-- Familiarity with Jetpack Compose and Material Design principles.
-- Experience with Retrofit and Coroutines for network operations.
+## Problem 1: Product Inventory Management
+
+### Description
+
+Develop a product inventory management system using Object-Oriented Programming (OOP) principles. The system should allow users to add, update, delete, and view products in the inventory.
+
+### Solution
+
+The solution is implemented in C++ using classes to represent products and the inventory system. Below is a brief overview of the classes and their functionalities:
+
+- **Product**: Represents a product with attributes such as ID, name, quantity, and price.
+- **Inventory**: Manages a collection of products and provides methods to add, update, delete, and view products, sort.
+
+## Problem 2: Missing Number Problem
+
+### Description
+
+Given an array containing `n` distinct numbers taken from the range `1` to `n + 1`, find the one number that is missing from the array.
+
+### Solution
+
+The solution is implemented in C++ using sorting to find the missing number.
