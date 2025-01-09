@@ -1,4 +1,4 @@
-package com.example.currencyconverter.ui.theme.screen.components
+package com.example.currencyconverter.ui.components
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row

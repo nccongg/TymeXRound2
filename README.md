@@ -15,10 +15,23 @@ The Currency Converter app is designed to provide users with a seamless and effi
 
 ## App Structure
 
-- **MainActivity**: The entry point of the app.
-- **ViewModel**: Handles the business logic and data management.
-- **Repository**: Manages data operations and network requests.
-- **UI Components**: Built using Jetpack Compose for a modern and responsive interface.
+The project structure in Android Studio is organized as follows:
+
+- **currencyconverter**
+    - **data**
+        - **api**
+            - `CurrencyApi.kt`: Defines the API endpoints for fetching currency data.
+            - `RetrofitInstance.kt`: Provides the Retrofit instance for network requests.
+        - **model**
+            - `CurrencyViewModel.kt`: Manages the UI-related data and business logic.
+    - **ui**
+        - **components**
+            - `CurrencyConverterRow.kt`: UI component for displaying a row in the currency converter.
+            - `Foresight.kt`: UI component for displaying foresight information.
+        - **screen**
+            - `HomeScreen.kt`: The main screen of the app where currency conversion takes place.
+    - **theme**: Contains theme-related files for styling the app.
+    - `MainActivity.kt`: The entry point of the app.
 
 ## How to Start
 
@@ -39,9 +52,6 @@ The Currency Converter app is designed to provide users with a seamless and effi
     - Connect an Android device or start an emulator.
     - Click on the "Run" button in Android Studio.
 
-## Demo Link
-
-Check out the demo of the Currency Converter app [here](#).
 
 ## Features
 
@@ -52,9 +62,8 @@ Check out the demo of the Currency Converter app [here](#).
 
 ## Screenshots
 
-![Home Screen](#)
-![Conversion Screen](#)
-![Foresight Section](#)
+![Home Screen](./CurrencyConverter/demo/home.jpg)
+![Conversion Screen](./CurrencyConverter/demo/coverter.jpg)
 
 ## Video Demo
 
@@ -66,7 +75,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-For any inquiries or feedback, please contact [your-email@example.com](mailto:your-email@example.com).
+For any inquiries or feedback, please contact [chicong442004@gmail.com](mailto:chicong442004@gmail.com).
 
 # CodingSkills
 

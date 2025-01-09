@@ -1,4 +1,4 @@
-package com.example.currencyconverter.ui.theme.screen
+package com.example.currencyconverter.ui.screen
 
 import android.app.Activity
 import androidx.compose.ui.platform.LocalContext
@@ -27,7 +27,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.ui.unit.dp
 import com.example.currencyconverter.ui.theme.AppTheme
-import com.example.currencyconverter.ui.theme.screen.components.CurrencyConverterRow
+import com.example.currencyconverter.ui.components.CurrencyConverterRow
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.graphics.Color
@@ -36,7 +36,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.currencyconverter.R
 import com.example.currencyconverter.data.model.CurrencyViewModel
-import com.example.currencyconverter.ui.theme.screen.components.ForesightSection
+import com.example.currencyconverter.ui.components.ForesightSection
 
 
 @Composable
