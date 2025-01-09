@@ -68,9 +68,6 @@ The project structure in Android Studio is organized as follows:
 ## Video Demo
 Watch the video demo of the Currency Converter app [here](https://drive.google.com/file/d/18LAwUnWthjPuI-_15osQpLYgEuqI7raB/view?usp=sharing)
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
